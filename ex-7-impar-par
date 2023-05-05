@@ -1,3 +1,4 @@
+#iclude<stdio.h>
 int main()
 {
     int i, qdp = 0, qdi = 0, num;
