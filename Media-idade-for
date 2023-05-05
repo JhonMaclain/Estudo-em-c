@@ -1,0 +1,19 @@
+int main()
+{
+    int i, smi = 0, idade;
+    float mdi;
+    
+    for (i=1;i<=5;i++)
+    {
+        printf("Digitea idade  da %d .a pessoa: ",i);
+        scanf("%d",& idade);
+       smi = smi+idade;
+       
+    }
+    
+    mdi = smi/5;
+    printf("A media de idades eh: %.0f\n", mdi);
+    
+    
+    return 0;
+}
