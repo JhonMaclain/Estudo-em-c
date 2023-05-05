@@ -1,0 +1,19 @@
+int main()
+{
+    int i, qdn = 0;
+    float num;
+    
+    for (i=1;i<=10;i++)
+    {
+        printf("Digite o %d .o numero: ",i);
+        scanf("%f",& num);
+        if(num > 30)
+        {
+            qdn++;
+        }
+    }
+    
+    printf("A quantidade de numeros maior que 30 sao: %d", qdn);
+    
+    return 0;
+}
