@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    float alt,maioralt = 0,menoralt = 5;
+    
+    printf("informe uma altura. Para finalizar digite 0: ");
+    scanf("%f",&alt);
+            while(alt > 0){
+                if(alt > maioralt)
+                    maioralt = alt;
+                if(alt < menoralt)
+                    menoralt = alt;
+                    
+                printf("informe uma altura. Para finalizar digite 0: ");
+                scanf("%f",&alt);
+            }
+    printf("A maior altura eh %.2f e a menor altura eh %.2f",maioralt, menoralt);
+    return 0;
+    
+}
