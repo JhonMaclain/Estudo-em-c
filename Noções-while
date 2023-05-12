@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    float n,md, soma = 0;
+    int qtn = 0;
+    
+    printf("informe um numero. Para finalizar digit 0: ");
+    scanf("%f",&n);
+            while(n > 0){
+                soma+=n;
+                qtn++;
+                printf("informe um numero. Para finalizar digit 0: ");
+                scanf("%f",&n);
+            }
+    md = soma / qtn;
+    printf("Media: %f",md);
+    return 0;
+}
