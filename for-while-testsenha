@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int sn = 4444, num;
+    do{
+    printf("Digite sua senha: ");
+    scanf("%d",&num);
+    if (num != sn)
+    printf("-senha incorreta digite novamente -\n");
+    }while(sn != num);
+    printf("senha correta");
+    return 0;
+}
