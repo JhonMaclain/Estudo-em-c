@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int i=0;
+    float num,soma = 0,med;
+    do{
+    printf("digite um numero\n para encerrar digite 0: ");
+    scanf("%f",&num);
+    if(num!=0)
+    soma = soma + num;
+    i++;
+    }while(num > 0);
+    med = soma / i;
+    printf("A soma dos numero eh %.2f\n e a media eh",soma);
+    return 0;
+}
