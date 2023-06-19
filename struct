@@ -1,0 +1,13 @@
+#include <stdio.h>
+struct novo_tipo{
+    int dado;
+    float valor;
+};
+int main()
+{
+    struct novo_tipo val;
+    val.dado = 5;
+    val.valor = 5.5;
+     printf(" %d %.2f", val.dado, val.valor);
+    return 0;
+}
